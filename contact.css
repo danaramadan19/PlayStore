@@ -1,0 +1,96 @@
+#form_container
+{
+    padding:15px 15px;
+    margin-top:50px;
+    background: rgba(178, 224, 141, 0.77);
+    color: #4d0000;
+}
+header
+{
+    background: radial-gradient(#fff,#ffe6e6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    z-index: 10;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 8px 100px;
+}
+header.sticky
+{
+    padding: 5px 100px;
+    background: radial-gradient(#fff,#ffe6e6);
+
+}
+header ul
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li
+{
+    position: relative;
+    list-style: none;
+}
+header ul li a
+{
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #4d0000;
+    letter-spacing: 2px;
+    font-weight: normal ;
+    transition: 0.6s;
+}
+header.sticky ul li a
+{
+    color: #4d0000;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+}
+body
+{
+    margin: 25px;
+    font-family: 'Nothing You Could Do', cursive;
+    background-image: url("images/img_5.png");
+    /*background: radial-gradient(#fff,#ffe6e6);*/
+    background-size: cover;
+    background-repeat:no-repeat;
+
+}
+.upload-btn-wrapper
+{
+    background-color: #4d0000;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.upload-btn-wrapper input[type=file]
+{
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+.btn-default {
+    color: #b34040;
+    background-color: #ffffff;
+    border-color: #ccc;
+    background-image: linear-gradient(to top, rgb(27, 24, 43) 0, #1B182BFF 100%);
+
+}
+
+
